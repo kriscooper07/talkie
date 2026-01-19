@@ -1,6 +1,5 @@
 <template>
   <div id="app" class="container">
-    <div class="earth-bg" :class="{ rotating: isRotating }" @click="toggleRotation"></div>
     <div class="flag flag-source" v-if="inputText.trim()">
       <img :src="`https://flagcdn.com/32x24/${currentFlagSource}.png`" alt="Source language flag" />
     </div>
@@ -54,7 +53,6 @@ const translatedText = ref('')
 const sourceLang = ref('en')
 const targetLang = ref('es')
 const isLoading = ref(false)
-const isRotating = ref(false)
 
 const languages = [
   { code: 'en', name: 'English' },
@@ -200,9 +198,5 @@ async function translateText() {
   } finally {
     isLoading.value = false
   }
-}
-
-function toggleRotation() {
-  isRotating.value = !isRotating.value
 }
 </script>
