@@ -5,6 +5,51 @@ body {
   background-color: #f5f5dc; /* Beige background for earthy feel */
 }
 
+.navbar {
+  background-color: #daa520; /* Goldenrod */
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.nav-title {
+  color: white;
+  margin: 0;
+  font-size: 24px;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+.nav-menu button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.nav-menu button:hover, .nav-menu button.active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
 .container {
   max-width: 600px;
   margin: 50px auto;
