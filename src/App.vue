@@ -65,17 +65,17 @@
       <h1>About Talkie</h1>
       <p>Talkie is a modern, easy-to-use language translation platform designed to help people communicate across the globe effortlessly. Whether you want to translate text, learn new phrases, or have real-time conversations in multiple languages, Talkie makes it simple and accessible.
 
-Key Features:
+  Key Features:
 
-Instant Text Translation: Type in your text and translate it into dozens of languages instantly.
+  Instant Text Translation: Type in your text and translate it into dozens of languages instantly.
 
-Multiple Languages Supported: From English, Spanish, and French to Hindi, Japanese, and Arabic — Talkie connects you to the world.
+  Multiple Languages Supported: From English, Spanish, and French to Hindi, Japanese, and Arabic — Talkie connects you to the world.
 
-User-Friendly Interface: Clean, minimal, and intuitive design so anyone can start translating without learning a complex system.
+  User-Friendly Interface: Clean, minimal, and intuitive design so anyone can start translating without learning a complex system.
 
-Future-Ready: Designed to grow with voice translation, conversation mode, and mobile-friendly enhancements.
+  Future-Ready: Designed to grow with voice translation, conversation mode, and mobile-friendly enhancements.
 
-Talkie bridges the gap between languages, making global communication seamless, fun, and fast — because connecting with people shouldn’t be limited by language.</p>
+  Talkie bridges the gap between languages, making global communication seamless, fun, and fast — because connecting with people shouldn’t be limited by language.</p>
     </div>
   </div>
 </template>
