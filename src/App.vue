@@ -66,7 +66,8 @@
           </div>
 
           <textarea v-model="inputText" placeholder="Type something..." rows="5"></textarea>
-          <button @click="translateText">Translate</button>
+          <button class="translate-btn" @click="translateText">Translate</button>
+
 
           <div v-if="isLoading" class="loading">
             <div class="spinner"></div>

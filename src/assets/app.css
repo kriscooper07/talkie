@@ -97,8 +97,12 @@ button {
   background-color: #daa520;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 999px;
   transition: background-color 0.3s;
+}
+
+.translate-btn {
+    border-radius: 999px;
 }
 
 button:hover {
@@ -120,11 +124,13 @@ button:hover {
 }
 
 select {
-  padding: 5px;
+  padding: 10px 12px;
   border: 1px solid #daa520;
-  border-radius: 3px;
+  border-radius: 999px;
   font-size: 14px;
   font-family: 'Poppins', sans-serif;
+  background: rgba(255, 255, 255, 0.7);
+  outline: none;
 }
 
 /* Flag Styles */
